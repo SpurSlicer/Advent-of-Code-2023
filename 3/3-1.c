@@ -123,6 +123,7 @@ int main(int argc, char** argv) {
             free(schematic);
             schematic = temp;
         }
+        fclose(f);
     }
     printf("The sum of valid part numbers is: %d :3\n", sum);
 

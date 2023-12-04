@@ -79,6 +79,7 @@ int main(int argc, char** argv) {
             //printf("Game %d: %d red %d green %d blue\n", game_nums_max.game, game_nums_max.red, game_nums_max.green, game_nums_max.blue); 
             sum += game_nums_max.red * game_nums_max.green * game_nums_max.blue;
         }
+        fclose(f);
     }
     printf("Sum of impossible games is: %d :3\n", sum);
     return 0;

@@ -84,6 +84,7 @@ int main(int argc, char** argv) {
             } 
             if (flag) sum += game_num; 
         }
+        fclose(f);
     }
     printf("Sum of impossible games is: %d :3\n", sum);
     return 0;

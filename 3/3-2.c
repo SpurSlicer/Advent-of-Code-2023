@@ -144,6 +144,7 @@ int main(int argc, char** argv) {
             free(schematic);
             schematic = temp;
         }
+        fclose(f);
     }
     int mult = 0;
     while (1) {
