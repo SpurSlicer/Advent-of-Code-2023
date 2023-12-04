@@ -30,7 +30,8 @@ int main(int argc, char** argv) {
             continue;
         }
         while (!feof(f)) {
-            char str[LINE_MAX_LEN] = {0};
+            char str[LINE_MAX_LEN];
+            memset(str, '\0', LINE_MAX_LEN);
             fgets(str, LINE_MAX_LEN, f);
             int start = 5, end = 5, size = 0;
             for (;;end++) {

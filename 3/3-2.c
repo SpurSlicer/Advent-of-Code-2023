@@ -26,7 +26,8 @@ s* fileinfo (FILE* f) {
     s* curr = head;
     int flag = 1;
     while (flag) {
-        char str[128] = {0};
+        char str[LINE_MAX_LEN];
+        memset(str, '\0', LINE_MAX_LEN);
         fgets(str, LINE_MAX_LEN, f);
         int len = 0;
         if (!feof(f)) len = strlen(str);
