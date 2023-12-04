@@ -7,6 +7,6 @@ Hopefully they are neat to look at! Everything posted here DOES work and will co
 To compile, just enter<br>
 `gcc x-y.c`
 <br>and run with<br>
-`.\a.out x.txt`
+`.\a.out x.txt` or `.\a.exe x.txt ` (whatever binary gcc compiles it to)
 <br>
 Hope this stuff is interesting!
