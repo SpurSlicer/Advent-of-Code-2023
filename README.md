@@ -4,7 +4,7 @@ I wrote everything in C to the best of my ability. All of the code is pretty jar
 Hopefully they are neat to look at! Everything posted here DOES work and will come with an example file (the one I was given).
 
 ## Compilation
-To compile, just enter gcc x-y.c
+To compile, just enter gcc x-y.c\n
 and run with .\a.out x.txt
 
 Hope this stuff is interesting!
